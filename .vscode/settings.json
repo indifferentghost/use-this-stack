@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["./components.json"],
+      "url": "https://ui.shadcn.com/schema.json"
+    }
+  ],
+  "yaml.schemas": {
+    "./app/schema.json": "./technology.yml"
+  }
+}
