@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=./app/schema.json
+options:
+  - name: React
+    description: The library for web and native user interfaces
+    url: https://react.dev/
+    categories:
+      - "frontend"
+  - name: Turso
+    description: Countless databases embedded anywhere
+    url: https://turso.tech/
+    categories:
+      - "database"
+  - name: Express
+    description: Fast, unopinionated, minimalist web framework for Node.js
+    url: https://expressjs.com/
+    categories:
+      - "backend"
+  - name: Kysley
+    description: The type-safe SQL query builder for TypeScript
+    url: https://kysely.dev/
+    categories:
+      - "orm"
+  - name: Jotai
+    description: Primitive and flexible state management for React
+    url: https://jotai.org/
+    categories:
+      - "state"
+  - name: TailwindCSS
+    description: Rapidly build modern websites without ever leaving your HTML.
+    url: https://tailwindcss.com/
+    categories:
+      - "css"
+  - name: Clerk
+    description: The most comprehensive User Management Platform
+    url: https://clerk.com/
+    categories:
+      - "auth"
+  - name: GitHub Actions
+    description: Automate your workflow from idea to production
+    url: https://github.com/features/actions
+    categories:
+      - "ci_cd"
+  - name: tsc
+    description: TypeScript default compiler.
+    url: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+    categories:
+      - "compiler"
+  - name: Pino
+    description: Very low overhead Node.js logger.
+    url: https://getpino.io/
+    categories:
+      - "logger"
+  - name: Bun
+    description: Bun is a fast JavaScript runtime
+    url: https://bun.sh/
+    categories:
+      - "runtime"
+    

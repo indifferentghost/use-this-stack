@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "database",
+                "backend",
+                "orm",
+                "frontend",
+                "state",
+                "css",
+                "api",
+                "auth",
+                "testing",
+                "ci_cd",
+                "transpiler",
+                "compiler",
+                "logger",
+                "runtime"
+              ]
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "name",
+          "url",
+          "description",
+          "categories"
+        ]
+      }
+    }
+  },
+  "required": [
+    "options"
+  ]
+}
